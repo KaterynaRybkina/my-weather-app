@@ -153,6 +153,7 @@ h1 {
 .units {
   position: relative;
   top: -34px;
+  font-size: 14px;
 }
 
 .btn-success {
