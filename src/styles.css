@@ -1,0 +1,163 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+
+form {
+  margin-bottom: 10px;
+}
+input {
+  margin-top: 15px;
+}
+h1 {
+  font-size: 38px;
+  text-shadow: 1px 1px 2px grey;
+  display: inline;
+  padding-left: 20px;
+}
+.face {
+  width: 100%;
+  background-color: rgb(217, 240, 243);
+  display: block;
+  margin: 20px auto;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  /*	font-weight: bold;*/
+  font-size: 20px;
+  padding: 0 20px;
+}
+.btn:hover {
+  background: #155263;
+  border: 1px solid #f9b814;
+}
+.form-control {
+  font-size: 1.3em;
+  padding: 0 12px;
+}
+.fa-location-pin {
+  color: #f6390a;
+  font-size: 40px;
+}
+.fa-location-pin:hover {
+  color: #155263;
+  cursor: pointer;
+}
+
+.col-6 {
+  padding-left: 25px;
+}
+
+.card {
+  text-align: center;
+  background-color: #f4f2f2;
+}
+.card:hover {
+  background-color: #ffffff;
+  border: 1px solid #155263;
+  box-shadow: 7px 4px 4px rgb(159, 157, 157);
+}
+.row {
+  padding: 20px 30px 10px 30px;
+}
+.row-centr {
+  padding: 0px;
+}
+.col-2 {
+  padding: 5px;
+}
+
+.location,
+.date {
+  text-align: center;
+}
+.centrWeather .location .fa-location-pin {
+  font-size: 30px;
+}
+.centrWeather {
+  margin: 0 30px;
+  display: inline;
+  box-sizing: content-box;
+}
+.img-day {
+  display: block;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.image-2 {
+  margin: 20px 0;
+}
+.card-text {
+  font-size: 26px;
+  font-weight: bold;
+}
+.temperature {
+  font-size: 64px;
+  font-weight: bold;
+}
+.textTemp {
+  text-align: center;
+}
+.card-title {
+  padding-top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.date {
+  font-size: 32px;
+  color: #757575;
+  font-family: "Grape Nuts", cursive;
+  margin-top: 20px;
+}
+/* red for time
+  .date span {
+  font-size: 36px;
+  color: #f6390a;
+  font-weight: bold;
+} */
+.temp {
+  max-width: 60%;
+  max-height: 60%;
+  font-size: 18px;
+  color: #757575;
+  margin-left: 60px;
+}
+.curDate {
+  font-size: 34px;
+  color: #f6390a;
+  font-family: "Grape Nuts", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.img-day-main {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+}
+.aboutWeather p {
+  margin: 0;
+}
+.col-5 centr {
+  align-items: center;
+}
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #77b9c8;
+  border-color: #2d5436;
+}
